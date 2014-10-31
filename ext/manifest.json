@@ -16,7 +16,7 @@
     "default_popup": "src/browser_action/browser_action.html"
   },
   "permissions": [
-    "https://raw.githubusercontent.com/OpenBijbel/DeBijbelToolbar/master/debijbel.nl.toolbar.js","https://api.reftagger.com/v2/RefTagger.js","https://biblia.com/api/logos.biblia.js"
+    "https://raw.githubusercontent.com/Openbijbel-nu/reftaggerdemo/master/reftagger-niv.js","https://api.reftagger.com/v2/RefTagger.js"
   ],
   "content_scripts": [
     {
