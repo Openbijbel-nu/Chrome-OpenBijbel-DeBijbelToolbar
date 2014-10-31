@@ -15,10 +15,6 @@ function loadScript(url, callback)
     head.appendChild(script);
 }
 
-var myPrettyCode = function() {
-     alert("success");
-};
-
 chrome.extension.sendMessage({}, function(response) {
 	var readyStateCheckInterval = setInterval(function() {
 	if (document.readyState === "complete") {
@@ -27,8 +23,7 @@ chrome.extension.sendMessage({}, function(response) {
 		// ----------------------------------------------------------
 		// This part of the script triggers when page is done loading
 		console.log("This message was sent from scripts/inject.js");
-		alert("this is from NIV-reftagger in inject.js");
-		loadScript("https://cdn.rawgit.com/OpenBijbel/DeBijbelToolbar/master/debijbel.nl.toolbar.js", myPrettyCode);
+		loadScript("https://cdn.rawgit.com/OpenBijbel/DeBijbelToolbar/master/debijbel.nl.toolbar.js");
 		// ----------------------------------------------------------
 	}
 	}, 10);
