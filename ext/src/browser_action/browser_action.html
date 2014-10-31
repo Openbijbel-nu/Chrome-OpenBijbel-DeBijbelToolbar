@@ -14,4 +14,13 @@
 <div id="mainPopup">
 <h1>NIV Reftagger!</h1>
 <p>Veel zegen toegewenst!</p>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $.getScript("https://raw.githubusercontent.com/Openbijbel-nu/reftaggerdemo/master/reftagger-niv.js");
+  });
+});
+</script>
+<button>Use Ajax to get and then run a JavaScript</button>
+<br/>
 </div>
