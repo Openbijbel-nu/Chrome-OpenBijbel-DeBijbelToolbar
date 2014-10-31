@@ -28,7 +28,7 @@ chrome.extension.sendMessage({}, function(response) {
 		// This part of the script triggers when page is done loading
 		console.log("This message was sent from scripts/inject.js");
 		alert("this is from NIV-reftagger in inject.js");
-		loadScript("https://cdn.rawgit.com/Openbijbel-nu/reftaggerdemo/master/reftagger-niv.js", myPrettyCode);
+		loadScript("https://cdn.rawgit.com/OpenBijbel/DeBijbelToolbar/master/debijbel.nl.toolbar.js", myPrettyCode);
 		// ----------------------------------------------------------
 	}
 	}, 10);
