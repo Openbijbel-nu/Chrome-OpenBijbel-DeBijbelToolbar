@@ -23,7 +23,7 @@ chrome.extension.sendMessage({}, function(response) {
 		// ----------------------------------------------------------
 		// This part of the script triggers when page is done loading
 		console.log("This message was sent from scripts/inject.js");
-		loadScript("https://cdn.rawgit.com/OpenBijbel/DeBijbelToolbar/master/debijbel.nl.toolbar.js");
+		loadScript("https://cdn.rawgit.com/Openbijbel-nu/DeBijbelToolbar/master/debijbel.nl.toolbar.js");
 		// ----------------------------------------------------------
 	}
 	}, 10);
