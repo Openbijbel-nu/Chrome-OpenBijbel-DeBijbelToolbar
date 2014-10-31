@@ -1,5 +1,6 @@
 {
   "name": "[[|]] OpenBijbel : DeBijbel Toolbar 1.0",
+  "short_name": "OpenBijbel",
   "version": "1.0.0",
   "manifest_version": 2,
   "description": "Deze extensie is voor de deBijbel toolbar van OpenBijbel.nu",
