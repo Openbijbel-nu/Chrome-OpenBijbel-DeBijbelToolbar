@@ -1,7 +1,7 @@
 {
   "name": "[[|]] OpenBijbel : Bijbel Toolbar 1.0",
   "short_name": "OpenBijbel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "manifest_version": 2,
   "description": "Deze extensie is voor de de Bijbel toolbar van OpenBijbel.nu",
   "homepage_url": "http://www.openbijbel.nu",
